@@ -32,10 +32,10 @@ defmodule Huex.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.11.0"},
+      {:httpoison, "~> 1.0.0"},
       {:poison, "~> 3.0"},
       {:nerves_ssdp_client, "~> 0.1", optional: true},
-      {:exvcr, "~> 0.8.0", only: :test},
+      {:exvcr, "~> 0.12.0", only: :test},
       {:earmark, "~> 1.0", only: :dev},
       {:ex_doc, "~> 0.19", only: :dev}
     ]
